@@ -1,172 +1,334 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>
+      Documentation For appy | App Landing Page - Responsive Html5 Template
+    </title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="frittt.com"
+      href="feed/index.html"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:700,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/prettify.css" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Documentation For appy | App Landing Page - Responsive Html5 Template</title>
-    <link rel="alternate" type="application/rss+xml" title="frittt.com" href="feed/index.html">
-    <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/prettify.css">
-</head>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "364694344554161");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=364694344554161&ev=PageView
+    &noscript=1"
+      />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <header>
-            <div class="container">
-                <h2 class="lone-header">appy | App Landing Page Documentation</h2>
-            </div>
-        </header>
-        <section>
-            <div class="container">
-                <ul class="docs-nav">
-                    <li><strong>Getting Started</strong></li>
-                    <li><a href="#introduction" class="cc-active">Introduction</a></li>
-                    <li><a href="#html-structure" class="cc-active">HTML Structure</a></li>
-                    <li><a href="#page-sections" class="cc-active">Page Sections</a></li>
-                    <li><a href="#css-structure" class="cc-active">CSS Files and Structure</a></li>
-                    <li><a href="#js-structure" class="cc-active">Javascript Files and Structure</a></li>
-                    <li><a href="#themes" class="cc-active">Themes</a></li>
-                    <li><a href="#sources" class="cc-active">Sources</a></li>
-                    <li><a href="#my-support" class="cc-active">My Support</a></li>
-                    <li><a href="#your-support" class="cc-active">Your Support</a></li>
-                </ul>
-                <div class="docs-content">
-                    <h2> Getting Started</h2>
-                    <h3 id="introduction">Introduction</h3>
-                    <p> appy | App Landing Page</p>
+      <header>
+        <div class="container">
+          <h2 class="lone-header">appy | App Landing Page Documentation</h2>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <ul class="docs-nav">
+            <li><strong>Getting Started</strong></li>
+            <li><a href="#introduction" class="cc-active">Introduction</a></li>
+            <li>
+              <a href="#html-structure" class="cc-active">HTML Structure</a>
+            </li>
+            <li>
+              <a href="#page-sections" class="cc-active">Page Sections</a>
+            </li>
+            <li>
+              <a href="#css-structure" class="cc-active"
+                >CSS Files and Structure</a
+              >
+            </li>
+            <li>
+              <a href="#js-structure" class="cc-active"
+                >Javascript Files and Structure</a
+              >
+            </li>
+            <li><a href="#themes" class="cc-active">Themes</a></li>
+            <li><a href="#sources" class="cc-active">Sources</a></li>
+            <li><a href="#my-support" class="cc-active">My Support</a></li>
+            <li><a href="#your-support" class="cc-active">Your Support</a></li>
+          </ul>
+          <div class="docs-content">
+            <h2>Getting Started</h2>
+            <h3 id="introduction">Introduction</h3>
+            <p>appy | App Landing Page</p>
 
-                    <p>Created Between May and June 2017</p>
-                    <p>By : <a href="http://facebook.com/m.kamel090" target="_blank">Mohamed Kamel</a></p>
-                    <p>Thank you for purchasing appy - Responsive HTML5 template. If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form or put a ticket at Support Center .
-                        <br>Thank you so much!</p>
-                    <hr>
-                    <h3 id="html-structure"> HTML Structure</h3>
-                    <p>The html template uses Latest Bootstrap v3.3.7 with valid HTML5 tags. This theme is a responisve layout with 4 column Support column. All of the information in content area is nested within a class and comes with predefined classes.</p>
-                    <h4>Customize HTML File</h4>
-                    <p>If you would like to edit or remove a specific section of the site, simply open the index.html file and find the section that needs to be edited.</p>
-                    <img src="img/screen-1.jpg">
-                    <h4>Change Delay Animation</h4>
-                    <p>If you would like to edit animation delay , simply open the index.html file and find the (data-aos-delay) in the section that needs to be edited. then edit the (data-aos-delay) number.</p>
-                    <img src="img/screen-2.jpg">
-                    <hr>
-                    <h3 id="page-sections">Page Sections</h3>
-                    <ul>
-                        <li>Slide Section</li>
-                        <li>About Section</li>
-                        <li>Features Section</li>
-                        <li>One-feature Section</li>
-                        <li>Testimonial Section</li>
-                        <li>Screenshots Section</li>
-                        <li>Countup Section</li>
-                        <li>Price Table Section</li>
-                        <li>Video Section</li>
-                        <li>Team Section</li>
-                        <li>Download Section</li>
-                        <li>Faq Section</li>
-                        <li>Contact Section</li>
-                        <li>Subscribe Section</li>
-                        <li>Footer Section</li>
-                    </ul>
-                    <hr>
-                    <h3 id="css-structure">CSS Files and Structure</h3>
-                    <p>Mainly two main CSS files are used in this theme and some side files</p>
-                    <h4>Main files</h4>
-                    <ul>
-                        <li>bootstrap.min.css</li>
-                        <li>main.css</li>
-                    </ul>
-                    <h4>Side files</h4>
-                    <ul>
-                        <li>font-awesome.min.css</li>
-                        <li>owl.carousel.min.css</li>
-                        <li>owl.theme.default.min.css</li>
-                        <li>animate.css</li>
-                        <li>aos.css</li>
-                        <li>lity.min.css</li>
-                    </ul>
+            <p>Created Between May and June 2017</p>
+            <p>
+              By :
+              <a href="http://facebook.com/m.kamel090" target="_blank"
+                >Mohamed Kamel</a
+              >
+            </p>
+            <p>
+              Thank you for purchasing appy - Responsive HTML5 template. If you
+              have any questions that are beyond the scope of this help file,
+              please feel free to email, via my user page contact form or put a
+              ticket at Support Center . <br />Thank you so much!
+            </p>
+            <hr />
+            <h3 id="html-structure">HTML Structure</h3>
+            <p>
+              The html template uses Latest Bootstrap v3.3.7 with valid HTML5
+              tags. This theme is a responisve layout with 4 column Support
+              column. All of the information in content area is nested within a
+              class and comes with predefined classes.
+            </p>
+            <h4>Customize HTML File</h4>
+            <p>
+              If you would like to edit or remove a specific section of the
+              site, simply open the index.html file and find the section that
+              needs to be edited.
+            </p>
+            <img src="img/screen-1.jpg" />
+            <h4>Change Delay Animation</h4>
+            <p>
+              If you would like to edit animation delay , simply open the
+              index.html file and find the (data-aos-delay) in the section that
+              needs to be edited. then edit the (data-aos-delay) number.
+            </p>
+            <img src="img/screen-2.jpg" />
+            <hr />
+            <h3 id="page-sections">Page Sections</h3>
+            <ul>
+              <li>Slide Section</li>
+              <li>About Section</li>
+              <li>Features Section</li>
+              <li>One-feature Section</li>
+              <li>Testimonial Section</li>
+              <li>Screenshots Section</li>
+              <li>Countup Section</li>
+              <li>Price Table Section</li>
+              <li>Video Section</li>
+              <li>Team Section</li>
+              <li>Download Section</li>
+              <li>Faq Section</li>
+              <li>Contact Section</li>
+              <li>Subscribe Section</li>
+              <li>Footer Section</li>
+            </ul>
+            <hr />
+            <h3 id="css-structure">CSS Files and Structure</h3>
+            <p>
+              Mainly two main CSS files are used in this theme and some side
+              files
+            </p>
+            <h4>Main files</h4>
+            <ul>
+              <li>bootstrap.min.css</li>
+              <li>main.css</li>
+            </ul>
+            <h4>Side files</h4>
+            <ul>
+              <li>font-awesome.min.css</li>
+              <li>owl.carousel.min.css</li>
+              <li>owl.theme.default.min.css</li>
+              <li>animate.css</li>
+              <li>aos.css</li>
+              <li>lity.min.css</li>
+            </ul>
 
-                    <p>If you would like to edit a specific section of the site, simply open the main.css file and find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
-                    <hr>
-                    <h3 id="js-structure">Javascript Files and Structure</h3>
-                    <p>Mainly three main JS files are used in this theme and some side files</p>
-                    <h4>Main files</h4>
-                    <ul>
-                        <li>jquery.min.js</li>
-                        <li>bootstrap.min.js</li>
-                        <li>main.js</li>
-                    </ul>
-                    <h4>Side files</h4>
-                    <ul>
-                        <li>owl.carousel.min.js</li>
-                        <li>waypoints.min.js</li>
-                        <li>jquery.counterup.js</li>
-                        <li>aos.js</li>
-                        <li>lity.min.js</li>
-                    </ul>
+            <p>
+              If you would like to edit a specific section of the site, simply
+              open the main.css file and find the appropriate label in the CSS
+              file, and then scroll down until you find the appropriate style
+              that needs to be edited.
+            </p>
+            <hr />
+            <h3 id="js-structure">Javascript Files and Structure</h3>
+            <p>
+              Mainly three main JS files are used in this theme and some side
+              files
+            </p>
+            <h4>Main files</h4>
+            <ul>
+              <li>jquery.min.js</li>
+              <li>bootstrap.min.js</li>
+              <li>main.js</li>
+            </ul>
+            <h4>Side files</h4>
+            <ul>
+              <li>owl.carousel.min.js</li>
+              <li>waypoints.min.js</li>
+              <li>jquery.counterup.js</li>
+              <li>aos.js</li>
+              <li>lity.min.js</li>
+            </ul>
 
-                    <p>In addition to the custom scripts, I have implemented few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method</p>
+            <p>
+              In addition to the custom scripts, I have implemented few "tried
+              and true" plugins to create the effects. This plugin is packed, so
+              you won't need to manually edit anything in the file. The only
+              necessary thing to know is how to call the method
+            </p>
 
-                    <hr>
-                    <h3 id="themes">Themes</h3>
-                    <p>New in appy you can select your favorite color from 5 color till now</p>
-                    <h4>Change theme color</h4>
-                    <img src="img/screen-3.jpg">
-                    <p>if you need to select any theme color you just need to remove the &lsaquo;!&ndash;&ndash; &ndash;&ndash;&rsaquo; comment tag from the color line </p>
+            <hr />
+            <h3 id="themes">Themes</h3>
+            <p>
+              New in appy you can select your favorite color from 5 color till
+              now
+            </p>
+            <h4>Change theme color</h4>
+            <img src="img/screen-3.jpg" />
+            <p>
+              if you need to select any theme color you just need to remove the
+              &lsaquo;!&ndash;&ndash; &ndash;&ndash;&rsaquo; comment tag from
+              the color line
+            </p>
 
-                    <hr>
-                    <h3 id="sources">Sources</h3>
-                    <p>Fonts Used int the template are google fonts, you can find theme on Google Fonts</p>
-                    <h4>Fonts Used are :</h4>
-                    <ul>
-                        <li><a href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans" target="_blank">Open Sans</a></li>
-                    </ul>
-                    <h4>Framework</h4>
-                    <ul>
-                        <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
-                    </ul>
-                    <h4>Plugins</h4>
-                    <ul>
-                        <li><a href="http://jquery.com/" target="_blank">JQuery</a></li>
-                        <li><a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a></li>
-                        <li><a href="http://bfintal.github.io/Counter-Up/demo/demo.html" target="_blank">Counter Up</a></li>
-                        <li><a href="http://sorgalla.com/lity/" target="_blank">Lity</a></li>
-                        <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl Carousel</a></li>
-                        <li><a href="https://daneden.github.io/animate.css/" target="_blank">Animate</a></li>
-                    </ul>
+            <hr />
+            <h3 id="sources">Sources</h3>
+            <p>
+              Fonts Used int the template are google fonts, you can find theme
+              on Google Fonts
+            </p>
+            <h4>Fonts Used are :</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans"
+                  target="_blank"
+                  >Open Sans</a
+                >
+              </li>
+            </ul>
+            <h4>Framework</h4>
+            <ul>
+              <li>
+                <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+              </li>
+            </ul>
+            <h4>Plugins</h4>
+            <ul>
+              <li><a href="http://jquery.com/" target="_blank">JQuery</a></li>
+              <li>
+                <a href="https://michalsnik.github.io/aos/" target="_blank"
+                  >AOS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://bfintal.github.io/Counter-Up/demo/demo.html"
+                  target="_blank"
+                  >Counter Up</a
+                >
+              </li>
+              <li>
+                <a href="http://sorgalla.com/lity/" target="_blank">Lity</a>
+              </li>
+              <li>
+                <a
+                  href="https://owlcarousel2.github.io/OwlCarousel2/"
+                  target="_blank"
+                  >Owl Carousel</a
+                >
+              </li>
+              <li>
+                <a href="https://daneden.github.io/animate.css/" target="_blank"
+                  >Animate</a
+                >
+              </li>
+            </ul>
 
-                    <h4>Images</h4>
-                    <ul>
-                        <li><a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
-                    </ul>
+            <h4>Images</h4>
+            <ul>
+              <li>
+                <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+              </li>
+            </ul>
 
-                    <p>Every Code is properly commented for Editing Ease.</p>
-                    <hr>
-                    <h3 id="my-support">My Support</h3>
-                    <p> Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have any queries, please feel free to contact us at Support Center.</p>
-                    <p>Email Us at : <a href="mailto:m.kamel090@gmail.com">m.kamel090@gmail.com</a></p>
-                    <hr>
-                    <h3 id="your-support">Your Support</h3>
-                    <p>if you liked my item please don't forget to give me a rate on themeforest</p>
-                    <img src="img/star.jpg" alt="">
-                    <p style="text-align: center;"><small><a href="https://www.freepik.com/free-vector/simple-star-rating_1014846.htm" target="_blank">The Image Star Rating Designed by Freepik</a></small></p>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="">
-                <p> &copy; Copyright Mohamed Kamel . All Rights Reserved.</p>
-            </div>
-        </footer>
+            <p>Every Code is properly commented for Editing Ease.</p>
+            <hr />
+            <h3 id="my-support">My Support</h3>
+            <p>
+              Once again, thank you so much for purchasing this theme. As I said
+              at the beginning, I'd be glad to help you if you have any
+              questions relating to this theme. No guarantees, but I'll do my
+              best to assist. If you have any queries, please feel free to
+              contact us at Support Center.
+            </p>
+            <p>
+              Email Us at :
+              <a href="mailto:m.kamel090@gmail.com">m.kamel090@gmail.com</a>
+            </p>
+            <hr />
+            <h3 id="your-support">Your Support</h3>
+            <p>
+              if you liked my item please don't forget to give me a rate on
+              themeforest
+            </p>
+            <img src="img/star.jpg" alt="" />
+            <p style="text-align: center">
+              <small
+                ><a
+                  href="https://www.freepik.com/free-vector/simple-star-rating_1014846.htm"
+                  target="_blank"
+                  >The Image Star Rating Designed by Freepik</a
+                ></small
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="">
+          <p>&copy; Copyright Mohamed Kamel . All Rights Reserved.</p>
+        </div>
+      </footer>
     </div>
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/prettify/prettify.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
     <script src="js/layout.js"></script>
-</body>
-
+  </body>
 </html>
